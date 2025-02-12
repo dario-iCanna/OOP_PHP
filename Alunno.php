@@ -1,22 +1,22 @@
 <?php   
-class Alunno implements JsonSerializable {
+class Alunno implements JsonSerializable{
 
     private $nome;
     private $cognome;
     private $eta;
 
-    function __construct($nome, $cognome, $eta) {
-        $this->nome = $nome;
-        $this->cognome = $cognome;
-        $this->eta = $eta;
-    }
-
-    public function jsonSerialize(): array{
+    public function jsonSerialize():array{
         return [
             'nome' => $this->nome,
             'cognome' => $this->cognome,
             'eta' => $this->eta
         ];
+    }
+
+    function __construct($nome, $cognome, $eta) {
+        $this->nome = $nome;
+        $this->cognome = $cognome;
+        $this->eta = $eta;
     }
 
     function set_nome($nome) {
