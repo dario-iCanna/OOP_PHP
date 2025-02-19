@@ -1,0 +1,51 @@
+[
+    {
+      "nome": "Dario",
+      "cognome": "Cannavacciuolo",
+      "eta": 18,
+      "indirizzo": {
+        "via": "Via Reggepi Frassinetti",
+        "nCivico": 6
+      },
+      "voti": [
+        {
+          "numero": 10,
+          "descrizione": "very good"
+        },
+        {
+          "numero": 2,
+          "descrizione": "not good"
+        }
+      ]
+    },
+    {
+      "nome": "Mattia",
+      "cognome": "Iacob",
+      "eta": 18,
+      "indirizzo": {
+        "via": "Via Charles Baudleare",
+        "nCivico": 69
+      },
+      "voti": [
+        {
+          "numero": 6,
+          "descrizione": "normie good"
+        }
+      ]
+    },
+    {
+      "nome": "Isacco",
+      "cognome": "Pieri",
+      "eta": 19,
+      "indirizzo": {
+        "via": "Via Lucio Corsi",
+        "nCivico": 10
+      },
+      "voti": [
+        {
+          "numero": -1,
+          "descrizione": "suxBad good"
+        }
+      ]
+    }
+  ]
