@@ -5,14 +5,12 @@ header("Content-Type: application/json");
 
     $Alunni = array();
 
-    $Alunni[0] = new Alunno("Dario","Cannavacciuolo", 18);
-    $Alunni[1] = new Alunno("Mattia","Iacob", 18);
-    $Alunni[2] = new Alunno("Isacco","Pieri", 19);
+    $Alunni[0] = new Alunno("Dario","Cannavacciuolo", 18, "Via Reggepi Frassinetti", 6, 10 ,"Bravo");
+    $Alunni[1] = new Alunno("Mattia","Iacob", 18, "Via Charles Baudleare", 69, 6 ,"Potevi fare di più");
+    $Alunni[2] = new Alunno("Isacco","Pieri", 19, "Via Lucio Corsi", 10, 4 ,"Hai fatto proprio schifo");
 
-
-    foreach($Alunni as $i){
-        echo json_encode($Alunni);
-    }
+    echo json_encode($Alunni);
+    
 
 ?>
 
